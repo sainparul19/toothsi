@@ -1,0 +1,156 @@
+.kit {
+  padding: 80px 0;
+    background-color: #F7F7F7;
+}
+
+.kit1 {
+  padding: 0 20px;
+    z-index: 0;
+    max-width: 1304px;
+    margin: auto;
+    position: relative;
+}
+
+.kit2 > p {
+  font-size:1.498rem;
+  font-weight: 300;
+  line-height: 36px;
+}
+
+.parag {
+  color: rgb(66,66,66);
+  text-align: center;
+}
+
+.kit3 {
+  color: #e03c31;
+    font-size: 2.9999999999999996rem;
+    text-align: center;
+    font-weight: 600;
+    line-height: 72px;
+}
+
+.kit4 {
+  font-size: 1.0625rem;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    color: rgb(66,66,66);
+}
+
+.kit5 {
+  display: flex;
+    justify-content: space-between
+}
+
+.kit6 {
+  width: 33.33%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.kit7 {
+  width: 100%;
+  position: relative;
+  max-width: 342px;
+}
+
+.kit7 > img {
+  width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.kit8 {
+  color: #CBECF6;
+  bottom: -80px;
+  z-index: 10;
+  position: absolute;
+  font-size: 7.75rem;
+  font-weight: 600;
+}
+
+.parag1 {
+  color: #e03c31;
+    width: 100%;
+    height: 94px;
+    margin: 64px 0 20px;
+    display: flex;
+    font-size: 2.25rem;
+    max-width: 406px;
+    text-align: center;
+    align-items: center;
+    font-weight: 600;
+    line-height: 47px;
+    justify-content: center;
+}
+
+.parag2 {
+  font-size: 1.25rem;
+    max-width: 406px;
+    text-align: center;
+    line-height: 33.4px;
+    color: rgb(66,66,66);
+}
+
+
+
+@media  (max-width: 1280px) {
+ .kit5 {
+  flex-direction: column;
+ }
+ .kit6 {
+  width: 100%;
+    margin-bottom: 60px;
+ }
+ 
+
+.kit7 {
+  left: -30px;
+}
+.kit8 {
+  left: -40px;
+}
+
+.parag1 {
+  height: auto;
+  margin: 60px 0 20px;
+  max-width: 100%;
+}
+.parag2{
+  max-width: 100%;
+}
+}
+
+@media (max-width: 768px) {
+  .kit {
+    padding: 60px 0;
+  }
+  .kit5 {
+    margin-top: 40px;
+  }
+  .kit7 {
+    max-width: 274px;
+  }
+  .parag1 {
+    font-size: 1.7499999999999998rem;
+    line-height: 47px;
+  }
+  .parag2 {
+    font-size: 1.125rem;
+    line-height: 30px
+  }
+}
+
+@media  (max-width: 599px) {
+  .kit2 > p {
+    font-size: 1.125rem;
+    line-height: 32px;
+  }
+  .kit3 {
+    font-size: 2rem;
+    line-height: 48px;
+  }
+}

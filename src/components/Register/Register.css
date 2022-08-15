@@ -1,0 +1,145 @@
+.reg {
+  padding: 100px 20px;
+  position: relative;
+    background-color: #ffffff;
+}
+
+.reg1 {
+  display: flex;
+  max-width: 1125px;
+  margin-top: 13px;
+  text-align: left;
+  flex-direction: column;
+  margin: auto;
+  position: relative;
+}
+
+.reg2 {
+  position: relative;
+}
+
+.reg2 > h4 {
+  color: rgb(66, 66, 66);
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: lowercase;
+}
+
+.reg3 {
+  display: flex;
+  margin-top: 40px;
+  align-items: center
+}
+
+.reg4 {
+  flex: 1;
+  min-width: 100px;
+  margin-right: 20px;
+  display: flex;
+  position: relative;
+  margin-bottom: 32px;
+  flex-direction: column;
+}
+
+.lbl {
+  color: #424242;
+    opacity: 0.5;
+    font-size: 0.8749999999999999rem;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 16px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.intit {
+  color: rgb(66, 66, 66);
+  height: 48px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 16px;
+  outline: none;
+    padding: 16px 20px;
+    background: rgb(255, 255, 255);
+    transition: color 0.2s ease 0s, border-color;
+    border-color: rgb(194, 194, 194);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+}
+
+.reg4 > button {
+  padding: 12px 36px;
+  margin-top: -10px;
+}
+
+.btn2 {
+  text-align: center;
+    border-radius: 35px;
+    background-color: #E03C31;
+    padding: 12px 38px;
+    border: none;
+}
+
+.span1 {
+  color: #FFF;
+    font-size: 1rem;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: lowercase;
+}
+
+.span2 {
+  top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    overflow: hidden;
+    position: absolute;
+    border-radius: inherit;
+    pointer-events: none;
+}
+
+
+@media screen and (max-width:599px) {
+  .reg{
+    padding: 25px 0 25px 0 !important;
+  }
+  .reg1 {
+    margin-top: 0
+  }
+  .reg2 > h4 {
+    font-size: 1.125rem;
+    text-align: center;
+    line-height: 27px;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .reg {
+    height: 100% !important;
+  }
+  .reg3 {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+  }
+  .reg3 > div {
+    width: 100%;
+    margin-right: 0px;
+  }
+}
+
+
+@media screen and (min-width:1280px) {
+ .reg1 {
+  padding: 0px;
+ } 
+}

@@ -1,0 +1,169 @@
+.nav {
+  background-color: #ffffff;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 110;
+  position: fixed;
+  font-size: 1.0625rem;
+  transition: all 0.3s;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.nav1 {
+  margin: auto;
+  position: relative;
+  padding: 0px 20px;
+}
+
+.nav2 {
+  justify-content: unset;
+  height: 70px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.images {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.imge1 {
+  cursor: pointer;
+  padding: 0 10px 0 0;
+  align-self: center;
+  margin-top: 2px;
+}
+
+.imge1 > img {
+  height: 40px;
+  width: auto;
+  display: block;
+}
+
+.imge2 {
+  display: flex;
+    list-style: none;
+    align-items: center;
+    /* margin-left: 25px; */
+    margin-right: auto;
+}
+.imge2 > li {
+  position: relative;
+}
+
+.list {
+cursor: default;
+display: block;
+padding: 15px;
+font-size: 1rem;
+font-weight: 600;
+color: #424242;
+}
+
+.list > span {
+  color: #e03c31;
+  font-weight: 600;
+  font-style: sans-serif;
+}
+
+.tag {
+  border-right: 1px solid rgba(66,66,66,0.2);
+    margin-right: 15px;
+    padding-right: 30px;
+}
+
+.imge3 {
+  color: #424242;
+    display: flex;
+    padding: 7px 15px;
+    font-size: 14px;
+    align-items: center;
+    font-weight: 400;
+    border-radius: 30px;
+    background-color: rgba(250, 250, 250, 0.6);
+    text-decoration: none;
+}
+
+.imge3 > img {
+  width: 72px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.tag1 {
+  padding: 15px;
+  color: #424242;
+  position: relative;
+}
+
+.tag1 > span {
+  color: #e03c31;
+  font-weight: 600;
+}
+
+.tag1 > span >img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.tag2 {
+  color: #e03c31;
+  cursor: pointer;
+  margin: 0 25px;
+}
+
+.btn {
+  font-size: 1rem;
+    margin-left: 25px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-flex;
+    padding: 12px 38px;
+    position: relative;
+    align-items: center;
+    font-weight: 600;
+    border: none;
+    border-radius: 35px;
+    text-transform: lowercase;
+    justify-content: center;
+    background-color: rgb(224, 60, 49);
+}
+
+@media (max-width: 599px) {
+  .nav{
+    font-size: 0.8749999999999999rem;
+  }
+}
+
+
+@media screen and (max-width:600px) {
+  .nav1 {
+    padding: 0px 25px;
+    max-width: 1280px;
+  }
+  .tag {
+    display: none;
+  }
+  .tag1{
+    display: none;
+  }
+  .tag2{
+    display: none;
+  }
+  .btn {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width:1024px) {
+  .nav {
+    position: sticky;
+    margin-bottom: -70px;
+  }
+}

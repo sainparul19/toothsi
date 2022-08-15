@@ -1,0 +1,153 @@
+.aply {
+  padding: 80px 0;
+    background-color: #ffffff;
+}
+
+.aply1 {
+  padding: 0;
+    z-index: 0;
+    max-width: 1240px;
+    margin: auto;
+    position: relative;
+}
+
+.aply2 > p{
+  font-size: 1.4999999999999998rem;
+  font-weight: normal;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: rgb(66,66,66);
+  text-align: center;
+}
+
+.aply3 {
+  color: #e03c31;
+    font-size: 2.9999999999999996rem;
+    text-align: center;
+    font-weight: 600;
+    line-height: 72px;
+}
+
+.aply4 {
+  margin-top: 24px;
+}
+
+.aply4 > span > p {
+  font-size: 1.4999999999999998rem;
+  text-align: center;
+  font-weight: normal;
+  line-height: 32px;
+  color: rgb(66,66,66);
+}
+
+.aply4 > div > p {
+  font-size: 1.4999999999999998rem;
+  text-align: center;
+  font-weight: normal;
+  line-height: 10px;
+  color: rgb(66,66,66);
+}
+
+.aply5 {
+  display: flex;
+    flex-wrap: wrap;
+    margin-top: 85px;
+    justify-content: space-around;
+}
+
+.aply6 {
+  width: calc(33.5% - 50px);
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.aply7 {
+  top: -80px;
+    color: #CBECF6;
+    width: 107px;
+    z-index: 10;
+    position: absolute;
+    font-size: 8.75rem;
+    font-weight: 600;
+}
+
+.aply6 > p {
+  margin-left: 30px;
+}
+
+.par1 {
+  width: 100%;
+    z-index: 11;
+    font-size: 1.25rem;
+    max-width: 275px;
+    text-align: start;
+    line-height: 30px;
+    color: rgb(66,66,66);
+}
+
+.par2 {
+  margin: 32px 0 60px;
+    font-size: 1.4999999999999998rem;
+    text-align: center;
+    line-height: 36px;
+    color: rgb(66,66,66);
+}
+
+
+@media screen and (max-width: 768px) {
+  .aply {
+    padding: 60px 0
+  }
+  .aply4 {
+    margin-top: 24px;
+  }
+  .aply6 {
+    width: 100%;
+    margin-left: 30px;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .aply7 {
+    top: -50px;
+    left: -30px;
+    font-size: 6.25rem;
+    text-align: center;
+  }
+  .aply6 > p {
+    margin-left: 0;
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .aply1 {
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width:599px) {
+  .aply2 > p {
+    font-size: 1.125rem;
+    line-height: 32px;
+  }
+  .aply3 {
+    font-size: 2rem;
+    line-height: 48px;
+  }
+.aply4 > p {
+  font-size: 1.125rem;
+  line-height: 27px;
+}
+.aply4 > div >p {
+  font-size: 1.125rem;
+  line-height: 27px
+}
+.par2 {
+  margin: 40px 0 60px;
+    font-size: 1.125rem;
+    line-height: 32px;
+}
+}
+
+
