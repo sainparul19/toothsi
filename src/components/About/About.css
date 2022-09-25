@@ -16,7 +16,6 @@ position: relative;
 
 .abt3 {
   flex: 0.5;
-  margin-top: 20px;
 }
 
 .abt3 > img {
@@ -54,7 +53,7 @@ position: relative;
 }
 
 .abt7 {
-  margin: 20px 20px 20px 0;
+  margin: 20px;
   display: flex;
   align-items: center;
   font-weight: 600;
@@ -63,6 +62,7 @@ position: relative;
 .abt8 {
   display: flex;
     flex-wrap: wrap;
+    margin: 20px;
 }
 
 .abt8 > a:not(:last-child) {

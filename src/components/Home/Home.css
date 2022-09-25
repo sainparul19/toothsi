@@ -8,7 +8,7 @@
 }
 
 .home1 {
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     z-index: 1;
     max-width: 1280px;
@@ -105,6 +105,9 @@
 @media (max-width:599px) {
   .home {
       flex-direction: column-reverse;
+  }
+  .home1 {
+    padding: 0 20px;
   }
   .home2 {
     padding: 0;

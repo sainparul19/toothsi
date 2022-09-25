@@ -26,7 +26,7 @@ function Kit() {
                 <picture>
                   <img src={href} alt="" />
                 </picture>
-                <div className="kit8">01</div>
+                {/* <div className="kit8">01</div> */}
               </div>
               <p className="parag1">{p1}</p>
               <p className="parag2">{p2}</p>
