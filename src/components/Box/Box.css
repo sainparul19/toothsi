@@ -53,6 +53,7 @@
 
 .box5 > ul {
 list-style: none;
+padding: 0;
 }
 
 .box5 > ul > li {
